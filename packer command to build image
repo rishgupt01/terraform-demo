@@ -1,0 +1,15 @@
+PS C:\Users\gopal> history
+
+  Id CommandLine
+  -- -----------
+ 
+   3 az login
+   4 az group create -n myResourceGroup -l eastus
+   5 packer
+   6 az ad sp create-for-rbac
+   7 az ad sp create-for-rbac --role Contributor --query "{ client_id: appId, client_secret: password, tenant_id: tenant }"
+   8 az account show --query "{subscription_id: id}"
+   packer build .\ubuntu.json
+
+
+PS C:\Users\gopal>
