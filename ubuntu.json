@@ -1,16 +1,11 @@
-
-gopal das <gopal1409@gmail.com>
-5:25 PM (0 minutes ago)
-to me
-
 {
   "builders": [{
     "type": "azure-arm",
 
-    "client_id": "f5b6a5cf-fbdf-4a9f-b3b8-3c2cd00225a4",
-    "client_secret": "0e760437-bf34-4aad-9f8d-870be799c55d",
-    "tenant_id": "72f988bf-86f1-41af-91ab-2d7cd011db47",
-    "subscription_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx",
+    "client_id": "98429e97-c23c-48e2-af1a-a60591f11f00",
+    "client_secret": "3fUqy~sJHCBX8ygcX~88BCbBJBjGyBS858",
+    "tenant_id": "961e4a55-c338-498d-a310-544a2b8c027e",
+    "subscription_id": "1807deb1-885f-4a95-9b04-c7edf8f48e32",
 
     "managed_image_resource_group_name": "myResourceGroup",
     "managed_image_name": "myPackerImage",
