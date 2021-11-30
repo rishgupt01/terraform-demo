@@ -10,9 +10,11 @@ terraform {
 }
 
 # Configure the Microsoft Azure Provider
+#dev environment
 provider "azurerm" {
   features {} #if i use the first provider with a vm and delete the vm the storage will be deleted
 }
+#prod
 #if i use the second provider and delete my vm the storage will not be deleted as in feature we put delete on disk false
 provider "azurerm" {
   features {
