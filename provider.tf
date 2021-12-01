@@ -5,7 +5,11 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "1.44.0" #optional
+      #version = "1.44.0" #optional
+    }
+    random = {
+      source = "hashicorp/random"
+      version = ">=3.0"
     }
   }
 } #it download all the plugin 
